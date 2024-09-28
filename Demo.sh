@@ -1,0 +1,1 @@
+python getEvaluation.py --gt_dir '/data/muxy/Evaluation_indicators/gt' --generated_dir '/data/muxy/Evaluation_indicators/generated_images' --gpus False

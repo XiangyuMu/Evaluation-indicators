@@ -1,0 +1,2 @@
+此文件可以用来计算SSIM、PSNR、LPIPS和FID
+可以运行Demo.sh文件进行。将文件中的gt_dir和generated_dir替换成真实值和生成图像的目录即可。目录下的图像名要保持一致。

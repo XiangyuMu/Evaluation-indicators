@@ -70,7 +70,7 @@ def calc_psnr(img1_path, img2_path):
 
 
 class util_of_lpips():
-    def __init__(self, net, use_gpu=False):
+    def __init__(self, net='alex', use_gpu=False):
         '''
         Parameters
         ----------
@@ -118,3 +118,4 @@ class util_of_lpips():
             img1 = img1.cuda()
         dist01 = self.loss_fn.forward(img0, img1)
         return dist01
+    # sss
